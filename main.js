@@ -4,7 +4,7 @@ function downloadResume() {
 
     anchorElement.download = 'Enrique Gambra Resume';
 
-    anchorElement.href = '../assets/Gambra_Enrique_Resume.docx';
+    anchorElement.href = '/assets/Gambra_Enrique_Resume.docx';
 
     anchorElement.click();
 }

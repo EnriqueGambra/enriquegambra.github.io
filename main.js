@@ -22,7 +22,7 @@ function onPageLoad() {
 
 async function buildProjectCardsFromServer() {
 
-    const response = await fetch('https://enrique-gam-portfolio-server-8f8637dff469.herokuapp.com//getRepoData');
+    const response = await fetch('https://enrique-gam-portfolio-server-8f8637dff469.herokuapp.com/getRepoData');
 
     const projectCardData = await response.json();
 
